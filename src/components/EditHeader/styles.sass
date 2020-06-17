@@ -1,0 +1,85 @@
+.editheader
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  padding: 10px
+  
+.editheader__backbutton
+  margin: 20px 0px
+  align-self: flex-start
+  span
+    color: #447ADD !important
+    font-size: 16px
+.editheader__inputs
+  display: flex
+  flex-direction: column
+  width: 24%
+  // margin-bottom: 40px
+  padding: 10px 2% 0px
+  h2
+    font-weight: 300
+
+  .colorlabel
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+  .colorinput
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    align-self: flex-start
+    width: 115px
+
+  .colorpreview
+    width: 30px
+    height: 30px
+    border-radius: 3px
+    border: 1px solid #E0E4E7
+  .bp3-control input:checked ~ .bp3-control-indicator
+    background: #447ADC
+
+.hoverpreview
+  filter: opacity(50%)
+  background-color: #447ADD
+
+.imgupload
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+
+  #headerimg-preview
+    max-width: 120px
+    max-height: 94px
+    width: auto
+    height: auto
+    display: block
+    padding-top: 5px
+  .cover__xbutton
+    position: absolute
+    cursor: pointer
+    z-index: 2
+    font-size: 10px
+    padding: 0px
+    border-radius: 40px
+    border: none
+    display: flex
+    justify-content: center
+    align-items: center
+    fill: white
+    background: white
+    &:hover
+      box-shadow: 1px 2px 2px grey
+
+.editheader__button
+  background: #FFC100 !important
+  // align-self: center
+  padding: 10px 30px
+  border-radius: 3px
+  color: white
+  font-size: 14px
+  cursor: pointer
+  &:hover
+    filter: opacity(70%)

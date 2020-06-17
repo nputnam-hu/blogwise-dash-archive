@@ -1,0 +1,38 @@
+#lowerswoosh-img
+    z-index: 1
+    position: fixed
+    left: 0px
+    bottom: 0px
+
+#upperswoosh-img
+  z-index: 1
+  position: fixed
+  right: 0
+  top: -5px
+  bottom: -5px
+  height: calc(100vh + 10px)
+
+#girlpainting-img
+  z-index: 1
+  position: absolute
+  right: 75px
+  top: 45%
+  height: 45%
+
+#register-container
+  background: white
+  padding-bottom: 40px
+  width: 100%
+  height: 100vh
+  .onboarding-container.register
+    margin-top: 0px
+    z-index: 2
+    position: relative
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
+
+  .register__createbutton
+    align-self: center
+
+  @media (max-width: 900px)
+    #lowerswoosh-img, #girlpainting-img, #upperswoosh-img
+      display: none

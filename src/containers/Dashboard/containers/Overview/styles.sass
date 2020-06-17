@@ -1,0 +1,99 @@
+#overview-container
+  margin: 0 5%
+  padding-bottom: 60px
+  @media (max-width: 1400px)
+      align-items: center
+  #overview-cards
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    @media only screen and (max-width: 1000px)
+      justify-content: center
+    .overview-column
+      display: flex
+      flex-direction: column
+      width: 47%
+      @media only screen and (max-width: 1000px)
+        width: 500px
+      .overview-card
+        height: 300px
+        border: 0.5px solid rgba(68,122,220, 0.2)
+        border-radius: 5px
+        padding: 0px 0px 20px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin: 10px
+        font-size: 16px
+        text-align: center
+        .overview-card__top
+          display: flex
+          flex-direction: row
+          align-items: center
+          padding-bottom: 25px
+        h2
+          font-size: 20px
+          font-weight: 400
+          color: #447ADD
+        button
+          border-radius: 2px
+        .overview-card__icon
+          height: 30px
+          width: 30px
+          margin-top: -3px
+          margin-right: 10px
+        .overview-card__buttons
+          display: flex
+          flex-direction: row
+          padding-top: 33px
+
+
+      .overview-spinner
+        display: flex
+        align-self: flex-center
+        padding-top: 30px
+
+    .overviewrobot-container
+      display: flex
+      flex-direction: row
+      .postgenius-robot
+        margin-left: auto
+        width: 120px
+      .speech-bubble 
+        text-align: center
+        padding: 5px
+        position: relative
+        background: #EAF5FD
+        border-radius: .4em
+        width: calc(100% - 140px)
+        // heisght: 170px
+        display: flex
+          justify-content: center
+          align-items: center
+        &:after
+          content: ''
+          position: absolute
+          right: 0
+          top: 50%
+          width: 0
+          height: 0
+          border: 20px solid transparent
+          border-left-color: #EAF5FD
+          border-right: 0
+          border-bottom: 0
+          margin-top: -10px
+          margin-right: -20px
+        p
+          padding: 20px
+          font-size: 16px
+
+  h2
+    color: #848484
+    font-weight: 400
+  span
+    color: rgba(0, 0, 0, 0.22)
+
+  .overview__bottom
+    margin-left: 20px

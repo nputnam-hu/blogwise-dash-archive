@@ -1,0 +1,52 @@
+#tags-container
+  padding-bottom: 40px
+  width: 65vw
+  .myblog__button
+    margin-left: 69%
+    @media (max-width: 1200px)
+      margin-left: 60%
+    @media (max-width: 1000px)
+      margin-left: 50%
+    @media (max-width: 900px)
+      margin-left: 40%
+    @media (max-width: 800px)
+      margin-left: 30%
+    @media (max-width: 700px)
+      margin-left: 20%
+    @media (max-width: 600px)
+      margin-left: 10%
+  .tags
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    @media (max-width: 1400px)
+      flex-direction: column
+    .tags__col
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+      .tag
+        margin: 15px 7px 0px
+        width: 275px
+        background: #ECF5FC
+        margin-bottom: 20px
+        border-radius: 5px
+        display: flex
+        flex-direction: row
+        .tag__buttons
+          padding: 5px
+          margin-left: auto
+          margin-bottom: auto
+          button
+            span
+              color: #447ADD
+        .tag__text
+          display: flex
+          flex-direction: column
+          padding: 20px
+
+          h5
+            font-weight: 300
+            font-size: 16px
+          p
+            font-size: 14px

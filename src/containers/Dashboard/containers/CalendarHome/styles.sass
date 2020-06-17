@@ -1,0 +1,176 @@
+@import '../../../../../node_modules/fullcalendar-reactwrapper/dist/css/fullcalendar.min.css'
+#calendarhome-container
+  min-height: 100vh
+  padding: 10px 0 30px
+#editevent-modal
+  padding: 30px
+  display: flex
+  flex-direction: column
+  button
+    width: 100px
+    align-self: center
+.calendarhome__content
+  display: flex
+  flex-direction: row
+  position: relative
+  @media (max-width: 1000px)
+    flex-direction: column
+
+.calendarhome__calendar
+  width: 60%
+  @media (max-width: 1000px)
+    width: 100%
+
+#fullcalendar
+  position: sticky
+  top: 30px
+
+.calendarhome__right
+  // border-left: 1px solid #E7E7E7
+  width: 40%
+  margin-left: 40px
+  margin-right: -30px
+  display: flex
+  flex-direction: column-reverse
+  @media (max-width: 1000px)
+    width: 100%
+    margin: 10px 0
+
+.calendarhome__tweets
+  // height: 800px
+  overflow: scroll
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.calendarhome__headlines
+  background: #FFFFFF
+  box-shadow: 1px 2px 4px 5px rgba(193, 193, 193, 0.25)
+  padding: 0 9px
+  border-radius: 5px
+  width: 100%
+  text-align: center
+  min-height: 200px
+  p
+    margin: 15px 50px 20px
+  h2
+    padding: 4px 0 0px
+    margin-bottom: 4px
+    text-align: left
+    color: #447ADC
+    text-transform: uppercase
+    font-size: 16px !important
+
+.has-event
+  background: #ECF5FC
+
+.headline__button
+  background: white
+  width: 100%
+  padding: 15px 5px
+  padding-right: 0px
+  border: none
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: flex-start
+  border-bottom: 1px solid #E7E7E7
+  cursor: pointer
+  &:hover
+    background-image: linear-gradient(to top, #ffffff, #fafafe)
+  span
+    text-align: left
+    width: 85%
+    font-size: 15px
+
+#calendar-wrapper
+  table
+    border-collapse: collapse
+  h2
+    font-size: 16px
+    font-family: proxima-nova
+    font-weight: 100
+    line-height: 19px
+
+.fc-left
+  display: flex
+  align-items: center
+  h2
+    font-size: 20px !important
+.fc-today-button
+  font-size: 10px
+  font-family: proxima-nova
+  font-weight: 200
+  background: #ffffff
+  border: 1px solid #EDEDED
+  border-radius: 5px
+.fc-prev-button
+  background: #ffffff
+  border-style: none
+.fc-next-button
+  border-style: none
+  background: #ffffff
+.fc-newPost-button
+  background: #FFFFFF
+  border: 1px solid #BFD7FF
+  font-size: 10px
+  font-family: proxima-nova
+  box-sizing: border-box
+  border-radius: 5px !important
+  padding: 10px 14px
+  color: #4D7DCD
+  font-weight: 400
+  display: flex
+  flex-direction: row
+  align-items: center
+  cursor: pointer
+  &:hover
+    background: #447ADD
+    border: 1px solid white
+    color: white
+    .bluebutton__icon
+      path
+        fill: whited
+
+  .bluebutton__icon
+    margin-right: 5px
+  .right
+    margin-right: 0px !important
+
+.fc-toolbar.fc-header-toolbar
+  margin-bottom: 50px
+
+.fc-head-container.fc-widget-header
+  border: none
+
+.fc-day-header
+  text-transform: uppercase
+  font-size: 13px
+  border: none !important
+  font-family: proxima-nova
+  font-weight: 100
+  line-height: 11px
+  height: 20px
+.fc-day-number
+  float: left !important
+  font-size: 12px
+  font-family: proxima-nova
+  font-weight: 100
+.fc-day
+  path
+    fill: whited
+.fc-event
+  border: 0px
+  background-color: transparent
+.fc-content
+  margin-top: 5px
+  background-color: transparent
+  .fc-time
+    font-size: 13px
+    font-family: proxima-nova
+    color: #000000
+  .fc-title
+    font-size: 12px
+    font-family: proxima-nova
+    font-weight: 100
+    color: #000000

@@ -1,0 +1,70 @@
+///////////////////////////////////////////////////////////////////////////////
+// PricingCard.module.sass ////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+@import '../vars.sass'
+
+.pricingCard
+  margin: 12px
+  height: 420px
+  width: 100%
+  max-width: 320px
+  min-width: 250px
+  font-family: $primaryFont
+  background: $whiteTheme
+  box-shadow: 3px 3px 4px 1px $shadowColor
+  border-radius: 5px
+
+.pricingCard__top
+  border-radius: 5px
+  height: 72px
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  text-align: center
+
+.pricingCard__top__title
+  font-size: calc(18px + .3vw)
+  font-weight: bold
+
+.pricingCard__body
+  margin-top: 12px
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.pricingCard__body__price
+  margin-top: 24px
+  margin-bottom: 12px
+  font-size: 32px
+  font-weight: bold
+
+.pricingCard__body__perMonth
+  font-size: calc(12px + .2vw)
+
+.pricingCard__body__list
+  margin-top: 48px
+  margin-bottom: 32px
+  list-style-type: none
+
+.listItem
+  margin-bottom: 6px
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: flex-start
+
+.listItem__image
+  margin-right: 16px
+
+.listItem__text
+  font-size: calc(12px + .3vw)
+  font-style: italic
+  color: $greyFontColor
+
+.pricingCard__description
+  font-size: calc(12px + .15vw)
