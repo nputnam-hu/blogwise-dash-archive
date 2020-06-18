@@ -41,7 +41,10 @@ class GetInfo extends Component {
   onClick = async () => {
     if (
       !validateState(
-        [['companyName', 'Organization Name'], ['tagName', 'Topic']],
+        [
+          ['companyName', 'Organization Name'],
+          ['tagName', 'Topic'],
+        ],
         this.state,
       )
     ) {
@@ -82,6 +85,7 @@ class GetInfo extends Component {
       })
       this.props.history.push('/onboarding/2')
     } catch (err) {
+      console.log(err)
       errorMessage(
         'Unable to update blog at this time. If this problem persists, please let us know via the chatbox on the bottom right of the screen.',
       )
