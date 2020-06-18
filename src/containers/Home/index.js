@@ -144,6 +144,18 @@ const Home = () => (
           : General documentation base for the blogwise architecture
         </li>
       </ul>
+      <h2>Design</h2>
+      <p>
+        The UI/UX design and branding for blogwise was done by Annelise. You can
+        read more about her process on the project{' '}
+        <a
+          href="https://www.annelisehillmann.com/blogwise"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>.
+      </p>
     </div>
   </div>
 )
