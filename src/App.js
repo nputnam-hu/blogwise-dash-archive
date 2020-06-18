@@ -1,13 +1,7 @@
 import React, { Component } from 'react'
-import {
-  Switch,
-  Route,
-  Redirect,
-  BrowserRouter as Router,
-} from 'react-router-dom'
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 import { StripeProvider } from 'react-stripe-elements'
 import store from 'store'
-import moment from 'moment'
 import config from './config'
 import Navbar, { ReducedNavbar } from './components/Navbar'
 import {

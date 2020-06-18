@@ -64,26 +64,26 @@ const ModalThree = ({ nextAction, isOpen, onOpening, onClosing }) => (
   </Dialog>
 )
 
-const ModalFour = ({ nextAction, isOpen, onOpening, onClosing }) => (
-  <Dialog
-    isOpen={isOpen}
-    onClose={nextAction}
-    className="editoronboarding__modal4"
-    onOpening={onOpening}
-    onClosing={onClosing}
-  >
-    <div className="editoronboarding__content">
-      <h3>Save Your Changes</h3>
-      <span>
-        When you're done with editing the top, click this button to save your
-        changes and proceed to the sidebar.
-      </span>
-      <Button minimal rightIcon="arrow-right" onClick={nextAction}>
-        Ok
-      </Button>
-    </div>
-  </Dialog>
-)
+// const ModalFour = ({ nextAction, isOpen, onOpening, onClosing }) => (
+//   <Dialog
+//     isOpen={isOpen}
+//     onClose={nextAction}
+//     className="editoronboarding__modal4"
+//     onOpening={onOpening}
+//     onClosing={onClosing}
+//   >
+//     <div className="editoronboarding__content">
+//       <h3>Save Your Changes</h3>
+//       <span>
+//         When you're done with editing the top, click this button to save your
+//         changes and proceed to the sidebar.
+//       </span>
+//       <Button minimal rightIcon="arrow-right" onClick={nextAction}>
+//         Ok
+//       </Button>
+//     </div>
+//   </Dialog>
+// )
 
 class EditorOnboardingModal extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FormGroup, InputGroup, Button, Intent } from '@blueprintjs/core'
+import { Button } from '@blueprintjs/core'
 import Client from '../../client'
 import errorMessage, { alertUser, validateState } from '../../toaster'
 import './styles.sass'
