@@ -49,7 +49,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm rebuild && react-scripts build && cp build/index.html build/404.html",
+    "build": "npm rebuild node-sass && react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.js\""

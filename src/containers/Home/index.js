@@ -49,7 +49,7 @@ const Home = () => (
       <p className="opening">
         {' '}
         While we ultimately shut blogwise down, we built this archive to
-        preserve the work we did in scaling the product from just an idea to a
+        preserve the work we did in scaling blogwise from just an idea to a
         funcitoning product with dozens of users.
       </p>
       <h2>Archive Websites</h2>
@@ -135,7 +135,7 @@ const Home = () => (
         </li>
         <li>
           <a
-            href="https://github.com/nputnam-hu/blogwise-api"
+            href="https://github.com/nputnam-hu/blogwise-lib"
             target="_blank"
             rel="noopener noreferrer"
           >
