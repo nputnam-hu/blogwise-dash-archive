@@ -50,7 +50,7 @@ const Home = () => (
         {' '}
         While we ultimately shut blogwise down, we built this archive to
         preserve the work we did in scaling blogwise from just an idea to a
-        funcitoning product with dozens of users.
+        functioning product with dozens of users.
       </p>
       <h2>Archive Websites</h2>
       <p>There are two archived websites from the blogwise product:</p>
@@ -67,7 +67,7 @@ const Home = () => (
         </li>
         <li>
           <a
-            href="https://blogwise-landing-archive.netlify.app/dashboard"
+            href="https://blogwise-dashboard-archive.netlify.app/dashboard"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -78,7 +78,7 @@ const Home = () => (
           from our dog-fooded blogwise account. You can also access the original
           onboarding flow{' '}
           <a
-            href="https://blogwise-landing-archive.netlify.app/register"
+            href="https://blogwise-dashboard-archive.netlify.app/register"
             target="_blank"
             rel="noopener noreferrer"
           >
