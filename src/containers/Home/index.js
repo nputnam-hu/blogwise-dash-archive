@@ -106,7 +106,7 @@ const Home = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            blogwise-dash
+            blogwise-landing
           </a>
           : the original codebase for the landing page. Written with React,
           GatsbyJS, and sass.
