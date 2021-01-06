@@ -6,7 +6,7 @@
     "@blueprintjs/core": "3.14.1",
     "@blueprintjs/datetime": "3.7.2",
     "@sentry/browser": "4.6.6",
-    "axios": "0.18.0",
+    "axios": "0.21.1",
     "blogwise-article-view": "https://e61e5ccf3e85523b1db0bcafe3ef3edeb8557c2b:x-oauth-basic@github.com/nputnam-hu/blogwise-article-view/tarball/master",
     "fullcalendar-reactwrapper": "1.0.7",
     "is-valid-domain": "0.0.7",
