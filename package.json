@@ -10,7 +10,7 @@
     "blogwise-article-view": "https://e61e5ccf3e85523b1db0bcafe3ef3edeb8557c2b:x-oauth-basic@github.com/nputnam-hu/blogwise-article-view/tarball/master",
     "fullcalendar-reactwrapper": "1.0.7",
     "is-valid-domain": "0.0.7",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "node-sass": "^4.14.1",
     "normalize-url": "4.2.0",
     "qs": "6.6.0",
